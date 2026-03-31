@@ -83,7 +83,13 @@ main() {
 
   # 把你自己的公钥放到这里，多设备共用就是共用同一个公钥
   SSH_KEYS=(
-    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICsn0vpcDQ4l3pYzkVmEXU5ci98/MepeKvVRelD5TRlI shared-key@mydevice"
+    "rsa-key-20260331"
+AAAAB3NzaC1yc2EAAAABJQAAAQEAsAyDtCJUuy+ubZzmeCc0cNlMI5+BWKJ6YK5S
+R7WBgsjjOTSREi9dCswRXvrNg+ECTIOhE8U3v0H/TugtHQDuDQVXUNDK9YV+S/vL
+Dg7GHwZSm/Hq12dBeCNg/oweLnBY9K4JzmELw1SkRqMteqaAJfDzTGOYDtEqJck6
+XftygzMQ3JmADigJHDMaQ7qYy+uHoC6u1PuqKujYZX/FUeRvtd9So+bmpgw2+siV
+gUdPW5jepWLB396qhDO3QZyZJU0R1IWhIdytVCvuhKpeBSavCr+nBZoEzUFhjow5
+Rer2dTr36sSDpv1ij/lS09F0+8RihodnpU5hhP6RMWOua6BKwQ=="
   )
 
   for key in "${SSH_KEYS[@]}"; do
