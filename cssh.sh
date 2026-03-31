@@ -83,7 +83,7 @@ main() {
 
   # 把你自己的公钥放到这里，多设备共用就是共用同一个公钥
   SSH_KEYS=(
-    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII0L/iqg+8MU5yeHOyczIfcOEG7id5sjTFuzaSfYp36l xxxx@gmail.com"
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIECO1iprlJHNNCsWhmwYhJ1KUkz3W0GLs0GnnnL2co6 xxxx@gmail.com"
   )
 
   for key in "${SSH_KEYS[@]}"; do
